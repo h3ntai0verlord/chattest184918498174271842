@@ -1,0 +1,31 @@
+#chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: flex-end;
+}
+
+#message-container {
+  overflow-y: auto;
+  height: 90%;
+}
+
+#send-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#message-input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+}
+
+#send-button {
+  padding: 10px;
+  border: none;
+  background-color: #1E90FF;
+  color: white;
+  cursor: pointer;
+}
